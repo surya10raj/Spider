@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        .about-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .about-image {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .about-image img {
+            width: 70%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .about-content {
+            flex: 2;
+        }
+
+        .download-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>SK Spider Catalog</h1>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Category</button>
+            <div class="dropdown-content">
+                <a href="food_crops.html">Family</a>
+                <a href="non_food_crops.html">Genus</a>
+                <a href="livestock.html">Species</a>         
+            </div>
+        </div>
+        <a href="#contact">Projects</a>
+       
+        <a href="./location.html">Location</a>
+        <a href="./search.html">Search</a>
+    </nav>
+
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-section">
+            <div class="about-image">
+                <img src="./my pic.png" alt="Sathish Kumar">
+            </div>
+            <div class="about-content">
+                <p>
+                    Hello, I'm Sathish Kumar M, Pursing BSc BioTechnology in RVS College of Arts and Science And i am passionate individual with a strong background in BioTechnology.
+                </p>
+              
+                <a href="./cv_template_17 (1).jpg" class="download-button" download>Resume</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

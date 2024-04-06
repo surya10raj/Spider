@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  
+    <nav>
+        <h1>SK Spider Catalog</h1>
+        <a href="./index.html">Home</a>
+        <a href="#about">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Category</button>
+            <div class="dropdown-content">
+                <a href="food_crops.html">Family</a>
+                <a href="non_food_crops.html">Genus</a>
+                <a href="livestock.html">Species</a>         
+            </div>
+        </div>
+        <a href="#contact">Projects</a>
+       
+        <a href="./location.html">Location</a>
+        <a href="./search.html">Search</a>
+    </nav>
+   <h2>Search Spiders</h2>
+   <!-- Search bar -->
+   <form action="/action_page.php">
+    <input type="text" placeholder="Family" name="search">
+    <button type="submit"><i class="fa fa-search">Go</i></button>
+  </form>
+   <form action="/action_page.php">
+    <input type="text" placeholder="Genus" name="search">
+    <button type="submit"><i class="fa fa-search">Go</i></button>
+  </form>
+   <form action="/action_page.php">
+    <input type="text" placeholder="Species" name="search">
+    <button type="submit"><i class="fa fa-search">Go</i></button>
+  </form>
+
+</body>
+</html>
